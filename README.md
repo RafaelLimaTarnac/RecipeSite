@@ -10,13 +10,18 @@
 <h2>Images</h2>
 
 ![sweets_query](readme_images/sweets_query.png)
+<hr>
 
 ![lunch_querry](readme_images/lunch_querry.png)
+<hr>
 
 ![ing_query](readme_images/ing_query.png)
+<hr>
 
 ![feijoada](readme_images/feijoada.png)
+<hr>
 
 ![manager](readme_images/manager.png)
+<hr>
 
 ![edit_manager](readme_images/edit_manager.png)
