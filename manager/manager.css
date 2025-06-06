@@ -1,0 +1,23 @@
+p{paddin: 0; margin: 0;}
+.recipe-prev-adm-ind th{border: solid 1px;}
+.recipe-prev-adm-ind td{border: solid 1px;}
+.recipe-prev-adm-ind{display: flex;}
+.buttons-prev{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.info-table-adm{
+	border: solid 2px;
+	margin: 10px;
+}
+#adm-header{
+	display: flex;
+}
+#adm-header *{
+	margin: 10px;
+}
+#adm-header form *{
+	margin-right: 0px;
+	margin-left: 0px;
+}

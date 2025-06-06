@@ -1,0 +1,255 @@
+/*
+=========================================
+	CHANGES THAT AFFECT ALL PAGES
+=========================================
+*/
+*{
+	font-family: Verdana, sans-serif;
+	line-height: 1.4
+}
+h1, h2, h3, h4, h5, h6, p{
+	color: #444
+}
+a, a:visited{
+	color: #6fa1ff;
+	text-underline-offset: 5px;
+}
+html, body{
+	margin: 0;
+	height: 100%;
+}
+body{
+	background-image: url(images/bg.jpg);
+}
+pre{
+	white-space: pre-wrap;
+}
+.nav-arrows{
+	display: flex;
+	justify-content: center;
+}
+.nav-arrows a{
+	display: flex;
+	margin: 5px;
+	margin-left: 25px;
+	margin-right: 25px;
+	width: 150px;
+	justify-content: center;
+	align-items:center;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+.nav-arrows img{
+	height: 60px;
+	width: 60px;
+}
+/*
+=========================================
+			INDEX PAGE
+=========================================
+*/
+#index_header{
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#index_header *{
+	padding: 10px;
+	font-weight: bold;
+}
+#index_header img{
+	height: 45px;
+	width: 45px;
+}
+#index_cat{
+	display: flex;
+	flex-direction: column;
+}
+#index_cat a{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+}
+/*
+=========================================
+			HEADER
+=========================================
+*/
+#page_header{
+	background-color: #e7ac4591;
+	margin-top: 0px;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+#page_header *{
+	margin-top: 0;
+	align-items: center;
+	vertical-align: middle;
+	padding: 5px;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-weight: bold;
+}
+#page_header img{
+	width: 30px;
+	height: 30px;
+}
+/*
+=========================================
+			HOME PAGE
+=========================================
+*/
+#recipe-container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.preview_recipe{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	width: 250px;
+	height: 350px;
+	
+	border: #ff5c00b8 2px solid;
+	
+	margin: 10px;
+	padding: 10px;
+	
+	background-color: #ffe04554;
+	text-decoration: none;
+}
+.preview_recipe *{
+	/*border: 1px solid;*/
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.preview_recipe img{
+	width: 150px;
+	height: 150px;
+	border: 5px solid #E2AE45;
+}
+.recip-time-diff{
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.recip-time-diff *{
+	border: 1px solid;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+.title{
+	color: black;
+}
+.description{
+	font-size: 1.1em;
+}
+/*
+=========================================
+			INGREDIENT PAGE
+=========================================
+*/
+#ingredient-form{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 240px;
+}
+#ingredient-page{
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+#ingredient-page h3{
+	width: 150px;
+	padding: 15px;
+	font-size: 1.1em;
+}
+#ingredient-page a{
+	color: #508dff;
+	text-underline-offset: 5px;
+}
+/*
+=========================================
+			RECIPE PAGE
+=========================================
+*/
+#recipe-header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#recipe-header p {
+    background-color: #ff9b45;
+    margin-top: 0px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 8px;
+    font-size: 1.1em;
+}
+#recipe-method{
+	padding: 25px;
+	margin: 25px;
+	background-image: url(../images/notebook.avif);
+	min-width: 30%;
+}
+#recipe-method h2 {
+    color: #ffffff;
+    background-color: #dfb048;
+    width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+#recipe-method pre{
+	font-size: 1.1em;
+}
+#recipe-ingredients{
+	display: flex;
+	margin: 20px;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+#recipe-ingredients tr{
+	background-color: #dfb0488c;
+}
+#recipe-ingredients *{
+	font-size: 1.015em;
+}
+#recipe-ingredients h2{
+	font-size: 1.8em;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #c70000;
+}
+#recipe-ingredients img{
+	width: 500px;
+	max-width: 80%;
+}
