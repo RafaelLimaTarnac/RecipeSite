@@ -15,6 +15,8 @@
 
 ![ing_query](readme_images/ing_query.png)
 
+![feijoada](readme_images/feijoada.png)
+
 ![manager](readme_images/manager.png)
 
 ![edit_manager](readme_images/edit_manager.png)
